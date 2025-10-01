@@ -1,7 +1,7 @@
 # Summer 2025 Self-balancing Robot Project
 
 ## Overview
-This project uses a Raspberry Pi, IMU sensor unit, two stepper motors, and an buck converter connected to a 14.8V Lipo battery to power everything.  Real-time sensor data from the Inertial Measuring Unit is used as input for a PID control loop by the Raspberry Pi.  This core software algorithm calculates the needed motor response which determines how fast and in which direciton the wheels need to turn to counteract falling.  The pi then sends Pulse With Modulation (PWM) signals to the motor drivers to control the speed of the stepper motors based on the frequency of the pulses.
+This project uses a Raspberry Pi, IMU sensor unit, two stepper motors, and a buck converter connected to a 14.8V Lipo battery to power everything. Real-time sensor data from the Inertial Measurement Unit is used as input for a PID control loop by the Raspberry Pi. This core software algorithm calculates the needed motor response, which determines how fast and in which direction the wheels need to turn to counteract falling. The Pi then sends Pulse Width Modulation (PWM) signals to the motor drivers to control the speed of the stepper motors based on the frequency of the pulses.
 
 ## Robot Pictures
 ![Front View](Robot_front.png)
